@@ -123,9 +123,6 @@ justify-content: space-evenly;
 #world{
   width: 190px;
 }
-.C{
-  height: 350px ;
-}
 .world{
   display: flex;
   justify-content: space-around;
@@ -179,6 +176,7 @@ form,label{
   padding-left: 10px;
 }
 .label input{
+  color: whitesmoke;
   text-align: center;
   background-color: #24A6F0;
 }
@@ -189,6 +187,29 @@ form,label{
 .book{
   display: flex;
   justify-content: center;
-  float: ;
+  
+}
+.agency{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  padding:30px 90px 30px 10px;
+  background-color: #FAFAFA;
+
+
+}
+.agency h2{
+font-size: 12px;
+}
+.agency p{
+  font-size: 8px;
+  color: hsla(0, 3%, 52%, 0.795);
 }
 
+.contact{
+  color: rgb(255, 255, 255);
+  background-color: #24A6F0;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+}
