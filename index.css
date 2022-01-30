@@ -87,12 +87,24 @@ justify-content: space-evenly;
   color: #D5D5D5; 
   line-height: 13px;
   background-color: #FFFFFF;
-  height: 150px;
-  padding: 30px;
+  height: 100px;
+  padding: px;
 }
 .footer h2{
   color: #676B7B;
 }
 .footer li{
   font-size: 7px;
+}
+
+.footer1{
+  display: flex;
+  justify-content: space-around;
+  background-color: #FAFAFA;
+  height: 40px;
+}
+.p{
+  font-size: 8px;
+  text-shadow:  0.5px 0.5px #989898;
+  opacity: 0.6;
 }
