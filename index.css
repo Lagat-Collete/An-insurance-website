@@ -139,5 +139,8 @@ form,label{
   text-align: left;
   padding-left: 10px;
 }
-
+.label input{
+  text-align: center;
+  background-color: #24A6F0;
+}
 
