@@ -3,7 +3,7 @@
 }
 
 .nav{
-  background-image: url("./bc.png");
+  background-image: url("./images/bc.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -294,6 +294,14 @@ font-size: 12px;
   width: 70px;
   height: 25px;
   text-align: center;
+}
+.fab{
+  color: #24A6F0;
+}
+.touch ul li i{
+  text-decoration: none;
+  color: #24A6F0;
+
 }
 
 
