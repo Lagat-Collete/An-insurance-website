@@ -1,6 +1,12 @@
 * {
   
 }
+.background{
+  background-color:#FAFAFA ;
+}
+#back{
+  background-color: #FFFFFF;
+}
 
 .nav{
   background-image: url("./images/bc.png");
@@ -103,6 +109,8 @@ left: 10px;
   text-align: center;
 }
 .logo{
+  position: relative;
+  bottom:40px;
   margin-top: 40px;
   background-color: #FAFAFA;
   display: flex;
@@ -147,9 +155,11 @@ color:white;
 background-color: #24A6F0;
 }
 .A{
-display: inline-flex;
+  width: 700px;
+display:flex;
 justify-content: space-evenly;
-margin-top: 40px;
+margin-top: 40px ;
+margin: auto;
 }
 .A1{
   width: 50px;
@@ -168,8 +178,7 @@ margin-top: 40px;
  display:block;
   text-align: center;
   width: 200px;
-  position: relative;
-  left: 200px;
+  margin: auto;
   background-color: #FAFAFA;
 
 }
@@ -221,7 +230,7 @@ color: #F7E064;
   line-height: 13px;
   background-color: #FFFFFF;
   height: 100px;
-  padding: px;
+  
 }
 .footer h2{
   color: #676B7B;
@@ -242,15 +251,18 @@ color: #F7E064;
   opacity: 0.6;
 }
 .subscribe{
+  margin: auto;
   margin-top: 40px;
   width: 550px;
-  border: solid black;
   display: flex;
   height: 60px;
   align-items: center;
   justify-content: space-between;
   padding-left:20px;
   padding-right: 20px;
+}
+#grad{
+  background-image: linear-gradient(to right, #014688 ,#D54E88) ;
 }
 .subscribe p{
   width: 150px;
@@ -446,16 +458,18 @@ font-size: 12px;
 }
 @media screen and (max-width: 480px) {
   .nav{
-    height: 400px;
+    height: 700px;
   }
   .mind{
-    bottom: 80px;
+    bottom: px;
   }
   .logo{
     flex-direction: column;
     justify-content: center;
     width: 100%;
     align-items: center;
+    position: relative;
+    bottom: 300px;
   }
   .mind1{
     margin-bottom: 20px;
@@ -495,12 +509,24 @@ width: 100%;
   flex-direction: column;
     justify-content: center;
     align-items: center;
+    bottom: 10px;
   }
    .agency{
      flex-direction: column;
      justify-content: center;
      align-items: center;
      width: 50px;
-     margin: ;
+     margin: auto;
+   }
+   .footer{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: auto;
+   }
+   .footer1{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
    }
 }
