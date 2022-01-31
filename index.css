@@ -8,6 +8,9 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 700px;
+  background-position: center;
+  opacity:1;
+  margin-top: 40px;
 }
 .now{
   width: 80px;
@@ -79,29 +82,74 @@ nav{
   font-size: 14px;
 }
   
-
+.fa-user-friends{
+font-size: 25px;
+color: #7DCAF6;
+}
+.fa-book{
+font-size: 25px;
+color: #39AFF1;
+position: relative;
+left: 10px;
+}
+.fa-bookmark{
+font-size: 25px;
+color: #39AFF1;
+position: relative;
+left: 10px;
+}
 
 .pricing{
   text-align: center;
 }
 .logo{
+  margin-top: 40px;
+  background-color: #FAFAFA;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  
 }
-
-.mind{
-
-  background-color: blue;
+.mind1{
+  position: relative;
+  margin-right: 10px;
+  background-color: #FFFFFF;
   text-align: left;
   padding-left: 10px;
   padding-right: 10px;
-  color: white;
-  font-size: 10px;
+  color: grey;
+  font-size: 8px;
+  border:none;
+  width: 140px;
+  height: 90px;
+  text-shadow: 0.3px 0.3px grey;
+}
+.m{
+  align-items: center;
+}
 
+.mind{
+  position: relative;
+  bottom: 50px;
+  margin-right: 10px;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #2C3248;
+  font-size: 10px;
+  border:none;
+  width: 140px;
+  height: 90px;
+  text-shadow: 0.3px 0.3px grey;
+}
+.blue{
+color:white;
+background-color: #24A6F0;
 }
 .A{
 display: inline-flex;
 justify-content: space-evenly;
+margin-top: 40px;
 }
 .A1{
   width: 50px;
@@ -112,23 +160,31 @@ justify-content: space-evenly;
   .man{
   width: 70px; 
 }
+.ind{
+  background-color: #FAFAFA;
+}
 .industry{
+  margin-top: 40px;
  display:block;
   text-align: center;
   width: 200px;
   position: relative;
   left: 200px;
+  background-color: #FAFAFA;
 
 }
 .industry h1{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   opacity: 0.8;
+  text-shadow: 0.5px 0.5px;
 
 }
 .industry p{
-  font-size: 14px;
+  font-size: 8px;
   text-align: center;
+  text-shadow: 0.5px 0.5px;
+  color: #DCDCDC;
 }
 #man{
   border: solid #FFFFFF;
@@ -185,6 +241,33 @@ color: #F7E064;
   text-shadow:  0.5px 0.5px #989898;
   opacity: 0.6;
 }
+.subscribe{
+  margin-top: 40px;
+  width: 550px;
+  border: solid black;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:20px;
+  padding-right: 20px;
+}
+.subscribe p{
+  width: 150px;
+  font-size: 14px;
+}
+.subscribe input{
+  width: 100px;
+  height: 20px;
+  border: none;
+}
+.subscribe button{
+  height: 25px;
+  border: none;
+  background-color:#24A6F0;
+  color: white;
+  padding-bottom: 5px;
+}
 
 .pricing{
   text-align: center ;
@@ -197,6 +280,63 @@ color: #F7E064;
   color: #C1C1C1;
   text-shadow: 0.5px 0.5px #C1C1C1;
 }
+.free{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.free h4{
+  font-size: 13px;
+  font-weight:bolder;
+
+  text-shadow: 0.5px 0.5p grey;
+
+}
+.free p{
+  font-size: 8px;
+  text-shadow: 0.3px 0.3px grey;
+  opacity: 0.6;
+}
+.free .free1{
+  width: 160px;
+  box-sizing: border-box;
+  border: 1px solid #C9E8FA;
+  border-radius: 8px;
+  height: 300px;
+  padding: 26px;
+  text-indent: 1px;
+  line-height:10px ;
+}
+.free .free1 span{
+  font-size:30px ;
+  color: #24A6F0;
+  padding: 5px;
+}
+.fa-check-circle {
+  color:#58C172 ;
+  font-size:10px;
+  margin-right: 5px;
+}
+.fa-check-circle.grey{
+  color: #BDBDBD;
+}
+.try{
+  background-color:#24A6F0 ;
+  text-align: center;
+  height: 18px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+#free{
+  height: 320px;
+  position: relative;
+  padding-bottom: 10px;
+  bottom: 20px;
+  background-color: #252B42;
+  color: white;
+  opacity: 1;
+}
 #world{
   width: 190px;
   
@@ -205,9 +345,9 @@ color: #F7E064;
   display: flex;
   justify-content: space-around;
   font-size: 8px;
-  height: 400px;
+  height: 300px;
   position: relative;
-
+  margin-top: 40px;
   color: white;
   padding-left: 40px;
   padding-right: 40px;
@@ -263,6 +403,7 @@ form,label{
   height:280px;
 }
 .book{
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -303,32 +444,63 @@ font-size: 12px;
   color: #24A6F0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:900px){
+@media screen and (max-width: 480px) {
   .nav{
-    height:500px;
-    background-size: px;
+    height: 400px;
   }
+  .mind{
+    bottom: 80px;
+  }
+  .logo{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .mind1{
+    margin-bottom: 20px;
+  }
+  .managers{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .A{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+  }  
+.A1{
+    margin-bottom: 20px;
+  }
+  .subscribe{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 40px;
+  }
+  .free{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .world{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .book{
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   .agency{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 50px;
+     margin: ;
+   }
 }
