@@ -230,7 +230,8 @@ color: #F7E064;
 }
 .footer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 80px;
   font-weight:normal;
   font-size: 7px;
   text-shadow: 0.5px 0.5px;
@@ -243,14 +244,21 @@ color: #F7E064;
 .footer h2{
   color: #676B7B;
 }
-.footer li{
+.footer ul li{
   font-size: 7px;
+  display:inherit;
+  
+  
+  
 }
-
+.footer h2{
+  display: inherit;
+  
+}
 .footer1{
   display: flex;
   justify-content: space-around;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   height: 40px;
 }
 .p{
@@ -435,8 +443,8 @@ form,label{
 .agency{
   display: flex;
   justify-content: space-around;
-  height: 100px;
-  padding:30px 90px 30px 10px;
+  height: px;
+  padding:30px px 30px 10px;
   background-color: #FAFAFA;
 
 
